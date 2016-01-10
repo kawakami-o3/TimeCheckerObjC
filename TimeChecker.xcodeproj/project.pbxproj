@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5C9AE6F1C4237B400000186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9AE6E1C4237B400000186 /* main.m */; };
+		F5C9AE721C4237B400000186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9AE711C4237B400000186 /* AppDelegate.m */; };
+		F5C9AE751C4237B400000186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9AE741C4237B400000186 /* ViewController.m */; };
+		F5C9AE781C4237B400000186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9AE761C4237B400000186 /* Main.storyboard */; };
+		F5C9AE7A1C4237B400000186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C9AE791C4237B400000186 /* Assets.xcassets */; };
+		F5C9AE7D1C4237B400000186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9AE7B1C4237B400000186 /* LaunchScreen.storyboard */; };
+		F5C9AE881C4237B400000186 /* TimeCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9AE871C4237B400000186 /* TimeCheckerTests.m */; };
+		F5C9AE931C4237B400000186 /* TimeCheckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9AE921C4237B400000186 /* TimeCheckerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5C9AE841C4237B400000186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C9AE621C4237B400000186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C9AE691C4237B400000186;
+			remoteInfo = TimeChecker;
+		};
+		F5C9AE8F1C4237B400000186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C9AE621C4237B400000186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C9AE691C4237B400000186;
+			remoteInfo = TimeChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5C9AE6A1C4237B400000186 /* TimeChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C9AE6E1C4237B400000186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5C9AE701C4237B400000186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5C9AE711C4237B400000186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5C9AE731C4237B400000186 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5C9AE741C4237B400000186 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5C9AE771C4237B400000186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5C9AE791C4237B400000186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C9AE7C1C4237B400000186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5C9AE7E1C4237B400000186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C9AE831C4237B400000186 /* TimeCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C9AE871C4237B400000186 /* TimeCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeCheckerTests.m; sourceTree = "<group>"; };
+		F5C9AE891C4237B400000186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C9AE8E1C4237B400000186 /* TimeCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C9AE921C4237B400000186 /* TimeCheckerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeCheckerUITests.m; sourceTree = "<group>"; };
+		F5C9AE941C4237B400000186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C9AE671C4237B400000186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C9AE801C4237B400000186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C9AE8B1C4237B400000186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C9AE611C4237B400000186 = {
+			isa = PBXGroup;
+			children = (
+				F5C9AE6C1C4237B400000186 /* TimeChecker */,
+				F5C9AE861C4237B400000186 /* TimeCheckerTests */,
+				F5C9AE911C4237B400000186 /* TimeCheckerUITests */,
+				F5C9AE6B1C4237B400000186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C9AE6B1C4237B400000186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9AE6A1C4237B400000186 /* TimeChecker.app */,
+				F5C9AE831C4237B400000186 /* TimeCheckerTests.xctest */,
+				F5C9AE8E1C4237B400000186 /* TimeCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C9AE6C1C4237B400000186 /* TimeChecker */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9AE701C4237B400000186 /* AppDelegate.h */,
+				F5C9AE711C4237B400000186 /* AppDelegate.m */,
+				F5C9AE731C4237B400000186 /* ViewController.h */,
+				F5C9AE741C4237B400000186 /* ViewController.m */,
+				F5C9AE761C4237B400000186 /* Main.storyboard */,
+				F5C9AE791C4237B400000186 /* Assets.xcassets */,
+				F5C9AE7B1C4237B400000186 /* LaunchScreen.storyboard */,
+				F5C9AE7E1C4237B400000186 /* Info.plist */,
+				F5C9AE6D1C4237B400000186 /* Supporting Files */,
+			);
+			path = TimeChecker;
+			sourceTree = "<group>";
+		};
+		F5C9AE6D1C4237B400000186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9AE6E1C4237B400000186 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5C9AE861C4237B400000186 /* TimeCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9AE871C4237B400000186 /* TimeCheckerTests.m */,
+				F5C9AE891C4237B400000186 /* Info.plist */,
+			);
+			path = TimeCheckerTests;
+			sourceTree = "<group>";
+		};
+		F5C9AE911C4237B400000186 /* TimeCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9AE921C4237B400000186 /* TimeCheckerUITests.m */,
+				F5C9AE941C4237B400000186 /* Info.plist */,
+			);
+			path = TimeCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C9AE691C4237B400000186 /* TimeChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C9AE971C4237B400000186 /* Build configuration list for PBXNativeTarget "TimeChecker" */;
+			buildPhases = (
+				F5C9AE661C4237B400000186 /* Sources */,
+				F5C9AE671C4237B400000186 /* Frameworks */,
+				F5C9AE681C4237B400000186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeChecker;
+			productName = TimeChecker;
+			productReference = F5C9AE6A1C4237B400000186 /* TimeChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C9AE821C4237B400000186 /* TimeCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C9AE9A1C4237B400000186 /* Build configuration list for PBXNativeTarget "TimeCheckerTests" */;
+			buildPhases = (
+				F5C9AE7F1C4237B400000186 /* Sources */,
+				F5C9AE801C4237B400000186 /* Frameworks */,
+				F5C9AE811C4237B400000186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C9AE851C4237B400000186 /* PBXTargetDependency */,
+			);
+			name = TimeCheckerTests;
+			productName = TimeCheckerTests;
+			productReference = F5C9AE831C4237B400000186 /* TimeCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5C9AE8D1C4237B400000186 /* TimeCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C9AE9D1C4237B400000186 /* Build configuration list for PBXNativeTarget "TimeCheckerUITests" */;
+			buildPhases = (
+				F5C9AE8A1C4237B400000186 /* Sources */,
+				F5C9AE8B1C4237B400000186 /* Frameworks */,
+				F5C9AE8C1C4237B400000186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C9AE901C4237B400000186 /* PBXTargetDependency */,
+			);
+			name = TimeCheckerUITests;
+			productName = TimeCheckerUITests;
+			productReference = F5C9AE8E1C4237B400000186 /* TimeCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C9AE621C4237B400000186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MikamiHayato;
+				TargetAttributes = {
+					F5C9AE691C4237B400000186 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F5C9AE821C4237B400000186 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F5C9AE691C4237B400000186;
+					};
+					F5C9AE8D1C4237B400000186 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F5C9AE691C4237B400000186;
+					};
+				};
+			};
+			buildConfigurationList = F5C9AE651C4237B400000186 /* Build configuration list for PBXProject "TimeChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C9AE611C4237B400000186;
+			productRefGroup = F5C9AE6B1C4237B400000186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C9AE691C4237B400000186 /* TimeChecker */,
+				F5C9AE821C4237B400000186 /* TimeCheckerTests */,
+				F5C9AE8D1C4237B400000186 /* TimeCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C9AE681C4237B400000186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C9AE7D1C4237B400000186 /* LaunchScreen.storyboard in Resources */,
+				F5C9AE7A1C4237B400000186 /* Assets.xcassets in Resources */,
+				F5C9AE781C4237B400000186 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C9AE811C4237B400000186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C9AE8C1C4237B400000186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C9AE661C4237B400000186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C9AE751C4237B400000186 /* ViewController.m in Sources */,
+				F5C9AE721C4237B400000186 /* AppDelegate.m in Sources */,
+				F5C9AE6F1C4237B400000186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C9AE7F1C4237B400000186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C9AE881C4237B400000186 /* TimeCheckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C9AE8A1C4237B400000186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C9AE931C4237B400000186 /* TimeCheckerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C9AE851C4237B400000186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C9AE691C4237B400000186 /* TimeChecker */;
+			targetProxy = F5C9AE841C4237B400000186 /* PBXContainerItemProxy */;
+		};
+		F5C9AE901C4237B400000186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C9AE691C4237B400000186 /* TimeChecker */;
+			targetProxy = F5C9AE8F1C4237B400000186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5C9AE761C4237B400000186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C9AE771C4237B400000186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5C9AE7B1C4237B400000186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C9AE7C1C4237B400000186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C9AE951C4237B400000186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5C9AE961C4237B400000186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C9AE981C4237B400000186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycom.TimeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5C9AE991C4237B400000186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycom.TimeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5C9AE9B1C4237B400000186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycom.TimeCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeChecker.app/TimeChecker";
+			};
+			name = Debug;
+		};
+		F5C9AE9C1C4237B400000186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycom.TimeCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeChecker.app/TimeChecker";
+			};
+			name = Release;
+		};
+		F5C9AE9E1C4237B400000186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycom.TimeCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5C9AE9F1C4237B400000186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycom.TimeCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C9AE651C4237B400000186 /* Build configuration list for PBXProject "TimeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C9AE951C4237B400000186 /* Debug */,
+				F5C9AE961C4237B400000186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C9AE971C4237B400000186 /* Build configuration list for PBXNativeTarget "TimeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C9AE981C4237B400000186 /* Debug */,
+				F5C9AE991C4237B400000186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5C9AE9A1C4237B400000186 /* Build configuration list for PBXNativeTarget "TimeCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C9AE9B1C4237B400000186 /* Debug */,
+				F5C9AE9C1C4237B400000186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5C9AE9D1C4237B400000186 /* Build configuration list for PBXNativeTarget "TimeCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C9AE9E1C4237B400000186 /* Debug */,
+				F5C9AE9F1C4237B400000186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C9AE621C4237B400000186 /* Project object */;
+}
