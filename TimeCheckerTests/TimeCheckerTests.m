@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
 
 @interface TimeCheckerTests : XCTestCase
 
@@ -25,8 +26,20 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    [self testInclude:2 between:1 and:3];
+    [self testInclude:1 between:1 and:1];
+    [self testInclude:1 between:22 and:3];
+
+    [self testExclude:0 between:1 and:3];
+    [self testExclude:3 between:10 and:20];
+}
+
+- (void)testInclude:(int)target between:(int)start and:(int)end{
+    XCTAssertTrue([ViewController isInclude:target between:start and:end], @"%d <= %d < %d", start, target, end);
+}
+
+- (void)testExclude:(int)target between:(int)start and:(int)end{
+    XCTAssertTrue(! [ViewController isInclude:target between:start and:end], @"%d <= %d < %d", start, target, end);
 }
 
 - (void)testPerformanceExample {
